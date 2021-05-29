@@ -13,6 +13,9 @@
 		B41D0CD5263AFAA9001E7EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41D0CD3263AFAA9001E7EB7 /* Main.storyboard */; };
 		B41D0CD7263AFAB8001E7EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41D0CD6263AFAB8001E7EB7 /* Assets.xcassets */; };
 		B41D0CDA263AFAB8001E7EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41D0CD8263AFAB8001E7EB7 /* LaunchScreen.storyboard */; };
+		B41D0CE5263AFDB3001E7EB7 /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D0CE4263AFDB3001E7EB7 /* AddMemoViewController.swift */; };
+		B41D0CEC263B026A001E7EB7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D0CEB263B026A001E7EB7 /* ListViewController.swift */; };
+		B4BDABA826568190000F6754 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BDABA726568190000F6754 /* OptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B41D0CD6263AFAB8001E7EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41D0CD9263AFAB8001E7EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B41D0CDB263AFAB8001E7EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41D0CE4263AFDB3001E7EB7 /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
+		B41D0CEB263B026A001E7EB7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		B4BDABA726568190000F6754 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				B41D0CCF263AFAA9001E7EB7 /* SceneDelegate.swift */,
 				B41D0CD1263AFAA9001E7EB7 /* ViewController.swift */,
 				B41D0CD3263AFAA9001E7EB7 /* Main.storyboard */,
+				B41D0CEB263B026A001E7EB7 /* ListViewController.swift */,
+				B4BDABA726568190000F6754 /* OptionViewController.swift */,
+				B41D0CE4263AFDB3001E7EB7 /* AddMemoViewController.swift */,
 				B41D0CD6263AFAB8001E7EB7 /* Assets.xcassets */,
 				B41D0CD8263AFAB8001E7EB7 /* LaunchScreen.storyboard */,
 				B41D0CDB263AFAB8001E7EB7 /* Info.plist */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41D0CE5263AFDB3001E7EB7 /* AddMemoViewController.swift in Sources */,
 				B41D0CD2263AFAA9001E7EB7 /* ViewController.swift in Sources */,
 				B41D0CCE263AFAA9001E7EB7 /* AppDelegate.swift in Sources */,
+				B4BDABA826568190000F6754 /* OptionViewController.swift in Sources */,
+				B41D0CEC263B026A001E7EB7 /* ListViewController.swift in Sources */,
 				B41D0CD0263AFAA9001E7EB7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AW4VDX9XC3;
 				INFOPLIST_FILE = Memo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AW4VDX9XC3;
 				INFOPLIST_FILE = Memo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
